@@ -1,0 +1,228 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+
+* {
+     margin: 0;
+     padding: 0;
+     font-family: "Sarala";
+     /* border: 1px solid black;  */
+     /* Serve pra quando estou criando o código, me guiar */
+ }
+
+ body {
+     background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     padding: 0px 100px;
+ }
+
+ header {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     padding: 10px 0px 0px 0px;
+     padding: 5px;
+     height: 82px;
+ }
+
+ .cabecalho-imagem {
+     height: 48px;
+     position: relative;
+     right: 109px;
+ }
+
+ .Estudo {
+     width: 400px;
+     display: flex;
+     justify-content: center;
+ }
+
+ .cabecalho-menu-item {
+     padding: 0px 10px;
+     margin: 0px 10px;
+     font-size: 16px;
+     color: #FFF2E7;
+ }
+
+ main {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 100%;
+ }
+
+ .conteudo-principal {
+     display: flex;
+     justify-content: space-around;
+     width: 100%;
+ }
+
+ .conteudo-principal-imagem {
+     width: 300px;
+     height: 300px;
+     object-fit: contain;
+ }
+
+ .imagem-robo {
+     width: 300px;
+     height: 300px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .conteudo-principal-escrito {
+     display: flex;
+     flex-direction: column;
+     gap: 32px;
+     padding: 32px 0;
+ }
+
+ .conteudo-principal-escrito-titulo {
+     text-align: start;
+     font-family: "Righteous";
+     color: #FFF2E7;
+     font-size: 32px;
+ }
+
+ .conteudo-principal-escrito-subtitulo {
+     text-align: start;
+     color: #FFF2E7;
+     font-size: 16px;
+ }
+
+ .conteudo-principal-escrito-botao {
+     text-align: start;
+     color: black;
+     background-color: #FFF2E7;
+     font-size: 16px;
+     border-radius: 8px;
+     width: fit-content;
+     padding: 4px 8px;
+ }
+
+ .conteudo-secundario {
+     display: flex;
+     gap: 24px;
+     flex-direction: column;
+     padding: 48px 0px;
+     color: #FFF2E7;
+     font-size: 14px;
+ }
+
+ .conteudo-secundario-titulo {
+     text-align: center;
+ }
+
+ footer {
+     padding: 48px 82px;
+     display: flex;
+     width: 100%;
+     justify-content: center;
+     position: relative; top: -24px
+ }
+
+ .ultima-linha {
+    border: 0.4px solid #fff2e717;
+    margin-top: 16px;
+    
+ }
+
+ .primeira-linha {
+    border: 0.4px solid #fff2e717;
+ }
+
+ .linha-meio{
+    border: 0.4px solid #fff2e717;
+    width: 230px;
+ }
+ 
+
+  /* Estilos para o DAVID */
+  .david {
+    position: relative;
+    animation: slideIn 0.2s forwards;
+  }
+
+  /* Estilos para o DEVELOPER */
+  .devolper {
+    position: relative;
+    animation: slideIn 0.2s forwards;
+    
+
+    
+  }
+
+  /* Animação de slide in */
+  @keyframes slideIn {
+    0% {
+      top: -20px;
+      opacity: 0;
+    }
+    100% {
+      top: 20px;
+      opacity: 1;
+    }
+  }
+
+
+  /* Estilos para o container pai */
+  .name-container {
+    position: relative;
+    right: -362px;
+    bottom: 239px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: flex-end;
+    align-self: flex-end;
+    align-items: center;
+    height: 10vh;
+    width: 10vw;
+    background-color: #0e0d0d33;
+    color: #FFF2E7;
+    font-family: 'Mynerve', cursive;
+    font-size: 4rem;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+
+  /* Estilos para o DAVID */
+  .david {
+    position: relative;
+    animation: slideIn 2s forwards;
+    font-size: 12px;
+    font-family: 'Mynerve', cursive;
+  }
+
+  /* Estilos para o DEVELOPER */
+  .devolper {
+    position: relative;
+    animation: slideIn 2s forwards;
+    animation-delay: 1s;
+    font-size: 12px;
+    font-family: 'Mynerve', cursive;
+  }
+
+  .meu-insta{
+    font-size: 10px;
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: 10px;
+    animation: slideIn 1.0s forwards;
+    animation-delay: 0.2s;
+  }
+
+  /* Animação de slide in */
+  @keyframes slideIn {
+    0% {
+      top: -50px;
+      opacity: 0;
+    }
+    100% {
+      top: 0;
+      opacity: 1;
+    }
+  }
+
