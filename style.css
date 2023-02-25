@@ -1,10 +1,15 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
 
 * {
      margin: 0;
      padding: 0;
      font-family: "Sarala";
+     border: none;
      /* border: 1px solid black;  */
      /* Serve pra quando estou criando o código, me guiar */
  }
@@ -12,7 +17,7 @@
  body {
      background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-     padding: 0px 100px;
+    
  }
 
  header {
@@ -57,49 +62,58 @@
  }
 
  .conteudo-principal-imagem {
-     width: 300px;
-     height: 300px;
+     /* width: 300px;
+     height: 300px; */
      object-fit: contain;
  }
 
  .imagem-robo {
-     width: 300px;
-     height: 300px;
+     width: 20%;
+     height: auto;
      display: flex;
      flex-direction: column;
      align-items: center;
      justify-content: center;
- }
+     margin-top: 16px
+
+    }
 
  .conteudo-principal-escrito {
      display: flex;
      flex-direction: column;
      gap: 32px;
      padding: 32px 0;
+     font-weight: 400;
+     margin-top: 32px;
+
  }
 
  .conteudo-principal-escrito-titulo {
      text-align: start;
-     font-family: "Righteous";
+     font-family: 'Righteous', cursive;
      color: #FFF2E7;
      font-size: 32px;
+     font-weight: 400
  }
 
  .conteudo-principal-escrito-subtitulo {
      text-align: start;
-     color: #FFF2E7;
+     color: #ECD6C4;
      font-size: 16px;
+     font-family: 'Sarala';
  }
 
- .conteudo-principal-escrito-botao {
+ .conteudo-principal-escrito-botao  {
      text-align: start;
-     color: black;
-     background-color: #FFF2E7;
+     color: #2F2325;
+     background-color: #ECD6C4;
      font-size: 16px;
      border-radius: 8px;
      width: fit-content;
      padding: 4px 8px;
+     font-family: 'Sarala';
  }
+
 
  .conteudo-secundario {
      display: flex;
@@ -115,11 +129,10 @@
  }
 
  footer {
-     padding: 48px 82px;
+     padding: 24px 625px;
      display: flex;
-     width: 100%;
-     justify-content: center;
-     position: relative; top: -24px
+     align-items: center;
+     position: relative;
  }
 
  .ultima-linha {
@@ -177,8 +190,8 @@
     justify-self: flex-end;
     align-self: flex-end;
     align-items: center;
-    height: 10vh;
-    width: 10vw;
+    height: 8vh;
+    width: auto;
     background-color: #0e0d0d33;
     color: #FFF2E7;
     font-family: 'Mynerve', cursive;
